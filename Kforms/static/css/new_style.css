@@ -1,0 +1,22 @@
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+	background: url(bckg.jpeg)no-repeat;
+	/*background-attachment:scroll;*/
+	background-attachment:fixed; 
+	background-size: cover;
+}
+li{
+	color:black;
+}
+p{
+	color:black;
+}
+
+p.int	_h{	
+	line-height: 1.5;
+	padding: 10px;
+	text-indent: 23px;
+	color:black;
+}

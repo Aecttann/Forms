@@ -1,0 +1,14 @@
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+	background: url(bckg1.jpeg)no-repeat;
+	background-attachment:fixed; 
+	background-size: cover;
+}
+li{
+	color:black;
+}
+p{
+	color:black;
+}

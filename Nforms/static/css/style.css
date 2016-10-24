@@ -1,0 +1,124 @@
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+	background: url(img1.jpg)no-repeat;
+	background-attachment:fixed; 
+	background-size: cover;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: absolute;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+	width:173px;
+    color: white;
+    background-color: brown;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 85px;
+    top: 0px;
+    left: 193px;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+	width: 65px;
+    color: white;
+    background-color: #bb0000;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.box,.page {
+position:fixed;
+top:0;
+left:0;
+display: block;
+width: 100%;
+height: 100%;
+overflow: hidden;
+z-index:999;
+background:rgba(15, 102, 99, 0.5);
+color:white;
+}
+.is_overlay{
+display: block;
+width: 100%;
+height: 110%;
+}
+.is_overlay video {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: 100%; z-index: -1000;
+background: url(/videos/bck.jpg) no-repeat;
+background-size: cover;
+}
+ul.css-menu-3 {
+	
+list-style: none;
+width:50; height:50;
+border-bottom: 5px solid #bb0000;
+border-top: 1px solid #114477;
+padding: 11px;
+background: #336699
+}
+
+ul.css-menu-3 li {
+display: inline
+}
+
+ul.css-menu-3 li a {
+color: #fefefe;
+text-decoration: none;
+background: #225588;
+border: 1px solid #225588;
+border-bottom: 1px solid #114477; 
+margin: 0; 
+padding: 10px 14px 10px 14px 
+}
+
+ul.css-menu-3 > li:hover > ul.submenu {
+	display:block;
+	border-left: 1px solid #114477; border-right: 1px solid #114477}
+
+ul.css-menu-3 li a.selected {
+color: #fefefe;
+background: #bb0000;
+border: 1px #cc0000 solid;
+border-bottom: 1px solid #bb0000;
+border-left: 1px solid #770000;
+padding: 10px 14px 10px 14px
+}
